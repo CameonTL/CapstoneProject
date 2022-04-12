@@ -1,4 +1,4 @@
-# CapstoneProjectSQL
-The database portion of the CS Capstone Project
+# CapstoneProject
+This is the code for the CS Capstone Project
 
-This is the MySQL code for creating the database used in the CS Capstone Project
+Code included is the setup for the MySQL database and folders containing versions of the PHP files run through XAMPP
