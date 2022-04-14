@@ -20,7 +20,7 @@
 			<p>Create Password:
 				<input type="password" name="password" size="15" maxlength="20" />
 			<p>Re-type Password:
-				<input type="text" name="Items" size="15" maxlength="20" />
+				<input type="password" name="confirmPass" size="15" maxlength="20" />
 			</p>
 			<label for="company">Employer:</label>
 			<select name="Company" id="company">
