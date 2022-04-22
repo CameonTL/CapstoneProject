@@ -1,8 +1,8 @@
 <?php
 define("SERVERNAMEDB", "localhost");
-define("USERNAMEDB", "username");
-define("PASSWORDDB", "password");
-define("DBNAME", "database");
+define("USERNAMEDB", "CameronTL");
+define("PASSWORDDB", "passwordCTL08");
+define("DBNAME", "scheduler");
 $conn = new mysqli(SERVERNAMEDB, USERNAMEDB, PASSWORDDB, DBNAME);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -70,6 +70,12 @@ mysqli_close($conn);
 
 		$stmt->close();
 		$conn->close();
+
+		if ($trueName != "" && $trueEmail != "" && $truePassword != "") {
+			echo "<script> location.href='loginpage.php'; </script>";
+			exit();
+		}
+
 		?>
 
 		<h1>Timetable</h1>
