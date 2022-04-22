@@ -1,8 +1,8 @@
 <?php
 define("SERVERNAMEDB", "localhost");
-define("USERNAMEDB", "CameronTL");
-define("PASSWORDDB", "passwordCTL08");
-define("DBNAME", "scheduler");
+define("USERNAMEDB", "username");
+define("PASSWORDDB", "password");
+define("DBNAME", "database");
 $conn = new mysqli(SERVERNAMEDB, USERNAMEDB, PASSWORDDB, DBNAME);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
