@@ -19,6 +19,25 @@ mysqli_close($conn);
 		</style>
 	</head>
 	<body>
+		<body style="background-color:RoyalBlue;">
+
+		<fieldset style="border-left-color: #0f0f0f; border-bottom-color: #0f0f0f; border-top-style: solid; border-top-color: #0f0f0f;
+		border-right-style: solid; border-left-style: solid; border-right-color: #0f0f0f; border-bottom-style: solid">
+		<style>
+			fieldset {
+				background-color: #	858886;
+			}
+
+			legend {
+				background-color: gray;
+				color: white;
+				padding: 5px 10px;
+			}
+
+			input {
+				margin: 5px;
+			}
+		</style>
 
 		<?php
 		$conn = new mysqli(SERVERNAMEDB, USERNAMEDB, PASSWORDDB, DBNAME);
