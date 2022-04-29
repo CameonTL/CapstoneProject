@@ -25,7 +25,7 @@ mysqli_close($conn);
 		border-right-style: solid; border-left-style: solid; border-right-color: #0f0f0f; border-bottom-style: solid">
 		<style>
 			fieldset {
-				background-color: #	858886;
+				background-color: #858886;
 			}
 
 			legend {
